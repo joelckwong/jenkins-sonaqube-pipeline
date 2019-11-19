@@ -1,6 +1,3 @@
-!["Docker Pulls](https://img.shields.io/docker/pulls/hakdogan/jenkins-pipeline.svg)
-[![Analytics](https://ga-beacon.appspot.com/UA-110069051-1/jenkins-pipeline/readme)](https://github.com/igrigorik/ga-beacon)
-
 # A tutorial about Continuous Integration and Continuous Delivery by Dockerize Jenkins Pipeline
 
 This repository is a tutorial it tries to exemplify how to automatically manage the process of building, testing with the highest coverage, and deployment phases.
@@ -201,3 +198,5 @@ For ``Sonarqube`` we have made the following definitions in the ``pom.xml`` file
 ```
 
 In the docker compose file, we gave the name of the Sonarqube service which is ``sonarqube``, this is why in the ``pom.xml`` file, the sonar URL was defined as http://sonarqube:9000.
+=======
+# jenkins-sonaqube-pipeline
