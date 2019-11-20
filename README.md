@@ -11,6 +11,9 @@ Our goal is to ensure our pipeline works well after each code being pushed. The 
 * Push the image to Docker Hub
 * Pull and run the image
 
+echo 'vm.max_map_count=262144' >> /etc/sysctl.conf
+sysctl -p
+
 ## First step, running up the services
 
 Since one of the goals is to obtain the ``sonarqube`` report of our project, we should be able to access sonarqube from the jenkins service. ``Docker compose`` is a best choice to run services working together. We configure our application services in a yaml file as below.
