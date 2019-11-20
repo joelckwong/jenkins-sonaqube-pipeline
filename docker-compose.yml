@@ -38,24 +38,39 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     depends_on:
       - sonarqube
-  jenkins-slave:
+  jenkins-slave1:
     build:
       context: jenkins-slave/
-    container_name: jenkins-slave
+    container_name: jenkins-slave1
     restart: always
     environment:
       - JENKINS_URL=http://jenkins-master:8080
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock  # Expose the docker daemon in the container
-      - home_jenkins:/home/jenkins # Avoid mysql volume mount issue
+      - home_jenkins1:/home/jenkins # Avoid mysql volume mount issue
     depends_on:
       - jenkins-master 
+  jenkins-slave2:
+    build:
+      context: jenkins-slave/
+    container_name: jenkins-slave2
+    restart: always
+    environment:
+      - JENKINS_URL=http://jenkins-master:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock  # Expose the docker daemon in the container
+      - home_jenkins2:/home/jenkins # Avoid mysql volume mount issue
+    depends_on:
+      - jenkins-master
 volumes:
   jenkins_home:
     name: jenkins_home
     driver: local
-  home_jenkins:
-    name: home_jenkins
+  home_jenkins1:
+    name: home_jenkins1
+    driver: local
+  home_jenkins2:
+    name: home_jenkins2
     driver: local
   sonarqube_conf:
     name: sonarqube_conf
