@@ -1,111 +1,111 @@
-pipeline-input-step: 2.11
-cloudbees-folder: 6.10.0
-antisamy-markup-formatter: 1.6
-docker-commons: 1.15
-structs: 1.20
-workflow-step-api: 2.21
-docker-workflow: 1.21
-token-macro: 2.10
-pipeline-stage-step: 2.3
-bouncycastle-api: 2.17
-build-timeout: 1.19
-credentials: 2.3.0
-pipeline-model-api: 1.5.0
-ssh-credentials: 1.18
-plain-credentials: 1.5
-credentials-binding: 1.20
-scm-api: 2.6.3
-workflow-api: 2.38
-timestamper: 1.10
-jsch: 0.1.55.1
-script-security: 1.68
-workflow-support: 3.3
-durable-task: 1.33
-jackson2-api: 2.10.1
-workflow-durable-task-step: 2.35
-github-api: 1.95
-junit: 1.28
-git-client: 3.0.0
-matrix-project: 1.14
-resource-disposer: 0.14
-ws-cleanup: 0.37
-ant: 1.10
-git: 4.0.0
-ace-editor: 1.1
-git-server: 1.8
-jquery-detached: 1.2.1
-workflow-cps-global-lib: 2.15
-workflow-scm-step: 2.9
-workflow-cps: 2.78
-github: 1.29.5
-workflow-job: 2.36
-apache-httpcomponents-client-4-api: 4.5.10-2.0
-display-url-api: 2.3.2
-mailer: 1.29
-workflow-basic-steps: 2.18
-gradle: 1.34
-pipeline-milestone-step: 1.3.1
-pipeline-graph-analysis: 1.10
-branch-api: 2.5.5
-pipeline-rest-api: 2.12
-handlebars: 1.1.1
-momentjs: 1.1.1
-pipeline-stage-view: 2.12
-workflow-multibranch: 2.21
-pipeline-build-step: 2.10
-pipeline-model-extensions: 1.5.0
-authentication-tokens: 1.3
-pipeline-stage-tags-metadata: 1.5.0
-pipeline-model-declarative-agent: 1.1.1
-pipeline-model-definition: 1.5.0
-lockable-resources: 2.7
-workflow-aggregator: 2.6
-github-branch-source: 2.5.8
-blueocean-i18n: 1.21.0
-mapdb-api: 1.0.9.0
-subversion: 2.12.2
-blueocean-jira: 1.21.0
-ssh-slaves: 1.31.0
-blueocean-jwt: 1.21.0
-matrix-auth: 2.5
-blueocean-rest: 1.21.0
-pam-auth: 1.6
-jdk-tool: 1.4
-ldap: 1.21
-blueocean-web: 1.21.0
-email-ext: 2.68
-blueocean-autofavorite: 1.2.4
-blueocean: 1.21.0
-favorite: 2.3.2
-pipeline-github-lib: 1.0
-htmlpublisher: 1.21
-jira: 3.0.11
-mercurial: 2.8
-blueocean-commons: 1.21.0
-pubsub-light: 1.13
-sse-gateway: 1.20
-blueocean-config: 1.21.0
-trilead-api: 1.0.5
-variant: 1.3
-blueocean-core-js: 1.21.0
-blueocean-dashboard: 1.21.0
-blueocean-display-url: 2.3.0
-blueocean-events: 1.21.0
-command-launcher: 1.4
-blueocean-bitbucket-pipeline: 1.21.0
-blueocean-git-pipeline: 1.21.0
-blueocean-github-pipeline: 1.21.0
-blueocean-personalization: 1.21.0
-blueocean-pipeline-api-impl: 1.21.0
-blueocean-pipeline-editor: 1.21.0
-blueocean-pipeline-scm-api: 1.21.0
-blueocean-rest-impl: 1.21.0
-cloudbees-bitbucket-branch-source: 2.6.0
-handy-uri-templates-2-api: 2.1.8-1.0
-jenkins-design-language: 1.21.0
-sonar: 2.10
-dependency-check-jenkins-plugin: 5.1.0
-mstest: 1.0.0
-docker-java-api: 3.0.14
-docker-plugin: 1.1.9
-authorize-project: 1.3.0
+pipeline-input-step
+cloudbees-folder
+antisamy-markup-formatter
+docker-commons
+structs
+workflow-step-api
+docker-workflow
+token-macro
+pipeline-stage-step
+bouncycastle-api
+build-timeout
+credentials
+pipeline-model-api
+ssh-credentials
+plain-credentials
+credentials-binding
+scm-api
+workflow-api
+timestamper
+jsch
+script-security
+workflow-support
+durable-task
+jackson2-api
+workflow-durable-task-step
+github-api
+junit
+git-client
+matrix-project
+resource-disposer
+ws-cleanup
+ant
+git
+ace-editor
+git-server
+jquery-detached
+workflow-cps-global-lib
+workflow-scm-step
+workflow-cps
+github
+workflow-job
+apache-httpcomponents-client-4-api
+display-url-api
+mailer
+workflow-basic-steps
+gradle
+pipeline-milestone-step
+pipeline-graph-analysis
+branch-api
+pipeline-rest-api
+handlebars
+momentjs
+pipeline-stage-view
+workflow-multibranch
+pipeline-build-step
+pipeline-model-extensions
+authentication-tokens
+pipeline-stage-tags-metadata
+pipeline-model-declarative-agent
+pipeline-model-definition
+lockable-resources
+workflow-aggregator
+github-branch-source
+blueocean-i18n
+mapdb-api
+subversion
+blueocean-jira
+ssh-slaves
+blueocean-jwt
+matrix-auth
+blueocean-rest
+pam-auth
+jdk-tool
+ldap
+blueocean-web
+email-ext
+blueocean-autofavorite
+blueocean
+favorite
+pipeline-github-lib
+htmlpublisher
+jira
+mercurial
+blueocean-commons
+pubsub-light
+sse-gateway
+blueocean-config
+trilead-api
+variant
+blueocean-core-js
+blueocean-dashboard
+blueocean-display-url
+blueocean-events
+command-launcher
+blueocean-bitbucket-pipeline
+blueocean-git-pipeline
+blueocean-github-pipeline
+blueocean-personalization
+blueocean-pipeline-api-impl
+blueocean-pipeline-editor
+blueocean-pipeline-scm-api
+blueocean-rest-impl
+cloudbees-bitbucket-branch-source
+handy-uri-templates-2-api
+jenkins-design-language
+sonar
+dependency-check-jenkins-plugin
+mstest
+docker-java-api
+docker-plugin
+authorize-project
