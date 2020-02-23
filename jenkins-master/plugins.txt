@@ -78,7 +78,6 @@ blueocean-autofavorite
 blueocean
 favorite
 pipeline-github-lib
-htmlpublisher
 jira
 mercurial
 blueocean-commons
